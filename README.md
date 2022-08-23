@@ -4,7 +4,7 @@
 
 ### Kullanılan Kütüphane ve Kılavuzlar
 
-> Genel Sözlükler
+#### Genel Sözlükler
 
 - Güncel Türkçe Sözlük
 - Türkçede Batı Kökenli Kelimeler Sözlüğü
@@ -14,7 +14,7 @@
 - Yabancı Sözlere Karşılıklar Kılavuzu
 - Eren Türk Dilinin Etimolojik Sözlüğü
 
-> Bilim ve Sanat Terimleri Sözlükleri ve Kılavuzları
+#### Bilim ve Sanat Terimleri Sözlükleri ve Kılavuzları
 
 - Ağaçişleri Terimleri Sözlüğü - 1968
 - Anatomi Terimleri Sözlüğü - 2004
