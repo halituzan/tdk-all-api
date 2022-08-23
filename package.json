@@ -1,0 +1,35 @@
+{
+  "name": "tdk-all-api",
+  "version": "0.0.1",
+  "description": "Türk dil kurumunun tüm sözlüklerini kapsayacak bir modüldür.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/halituzan/Tdk-Kelime-Arama-Motoru.git"
+  },
+  "keywords": [
+    "tdk",
+    "tdk-api",
+    "tdk api",
+    "Türk Dil Kurumu",
+    "Türkçe Api",
+    "Turkis Api",
+    "Turkish word api"
+  ],
+  "author": {
+    "name": "Halit Uzan",
+    "url": "https://halituzan.github.io",
+    "email": "halit.uzan@gmail.com"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/halituzan/Tdk-Kelime-Arama-Motoru/issues"
+  },
+  "homepage": "https://github.com/halituzan/Tdk-Kelime-Arama-Motoru#readme",
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}
