@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/halituzan/Tdk-Kelime-Arama-Motoru.git"
+    "url": "git+https://github.com/halituzan/tdk-all-api.git"
   },
   "keywords": [
     "tdk",
@@ -26,9 +26,9 @@
   },
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/halituzan/Tdk-Kelime-Arama-Motoru/issues"
+    "url": "https://github.com/halituzan/tdk-all-api/issues"
   },
-  "homepage": "https://github.com/halituzan/Tdk-Kelime-Arama-Motoru#readme",
+  "homepage": "https://github.com/halituzan/tdk-all-api#readme",
   "dependencies": {
     "axios": "^0.27.2"
   }
