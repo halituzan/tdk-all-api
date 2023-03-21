@@ -121,7 +121,7 @@
 ```
 const getWord=require('tdk-all-api');
 
-  const results = async (searching,uri) => {
+  const results = async (searching) => {
     try {
       const sonuc = await getWord(searching,"YOUR_PROXY_URL(optional)");
       console.log(sonuc);
