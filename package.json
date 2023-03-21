@@ -1,6 +1,6 @@
 {
   "name": "tdk-all-api",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "Türk dil kurumunun tüm sözlüklerini kapsayacak bir modüldür.",
   "main": "index.js",
   "scripts": {

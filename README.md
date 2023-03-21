@@ -121,9 +121,9 @@
 ```
 const getWord=require('tdk-all-api');
 
-  const results = async (searching) => {
+  const results = async (searching,uri) => {
     try {
-      const sonuc = await getWord(searching);
+      const sonuc = await getWord(searching,"YOUR_PROXY_URL(optional)");
       console.log(sonuc);
     } catch (e) {
       console.error(e);
@@ -150,6 +150,15 @@ word: "yazılım"
 }
 ```
 
+## Parameters
+1.0.0 sürümünde fonksiyona ikinci parametre olarak url parametresi eklenmiştir. Uygulamanızı canlıya alma aşamasına getirdiğinizde alabileceğiniz CORS hatalarını önlemek için proxy url'nizi kullanabilirsiniz. Bunu işleve ikinci bir parametre olarak bildirebilirsiniz. 2. parametre opsiyoneldir, varsayılan olarak TDK'nın API endpointi tanımlanmıştır.
+
+| # |  Parameters |   Example   |    Type    |Requirement|
+|---|-------------|-------------|------------|-----------|
+| 1.| Search Word |  "Yazılım"  |   string   |    yes    |
+| 2.|  Proxy Url  |    "/api"   |   string   |  optional |
+
 ## License
+
 
 ISC (c) Halit Uzan <halit.uzan@gmail.com>

@@ -1,6 +1,5 @@
 const axios = require("axios");
-const uri = "https://sozluk.gov.tr/";
-module.exports = async function (word) {
+module.exports = async function (word, uri = "https://sozluk.gov.tr/") {
   const datas = {
     word: null,
     lisan: null,
