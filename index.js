@@ -35,10 +35,10 @@ module.exports = async function (word, uri = "https://sozluk.gov.tr/") {
     const { anlamlarListe, birlesikler, lisan = null } = result;
     const means = anlamlarListe;
     const compounds = birlesikler?.split(", ") || [];
-    datas.word = result?.madde ? result?.madde : datas.word;
+    datas.word = result?.madde || datas.word;
     datas.lisan = lisan;
-    datas.means = means ? means : datas.means;
-    datas.compounds = compounds ? compounds : datas.compounds;
+    datas.means = means || datas.means;
+    datas.compounds = compounds || datas.compounds;
 
     /* Atasözleri ve Deyimler Sözlüğü */
     const atasozu = await axios(
